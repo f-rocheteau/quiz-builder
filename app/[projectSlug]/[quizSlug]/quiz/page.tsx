@@ -832,7 +832,7 @@ return (
 
         {/* ANSWERS */}
 
-        <div className="mt-5 grid gap-4">
+        <div className="mt-3 grid gap-2">
 
           {question.answer_choices.map(
             (
@@ -853,7 +853,7 @@ return (
                     choice.id
                   )
                 }
-                className="min-h-20 rounded-xl border border-gray-300 bg-white text-left text-lg font-semibold text-gray-900 shadow-sm transition hover:border-black hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="min-h-15 rounded-2xl p-5 border border-gray-300 bg-white text-left text-lg font-semibold text-gray-900 shadow-sm transition hover:border-black hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-60"
               >
 
                 <span className="mr-3 text-gray-400">
