@@ -816,9 +816,9 @@ return (
 
         {/* QUESTION */}
 
-        <section className="rounded-2xl bg-white p-6 shadow">
+        <section className="rounded-xl bg-white p-6 shadow">
 
-          <h1 className="text-2xl font-bold leading-snug text-gray-900 sm:text-3xl">
+          <h1 className="text-lg font-bold leading-snug text-gray-900 sm:text-3xl">
 
             {translate(
               question.question_text,

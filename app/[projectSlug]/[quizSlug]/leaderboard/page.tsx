@@ -403,11 +403,11 @@ export default function QuizLeaderboardPage() {
                 {quiz.project_name}
               </p>
 
-              <h1 className="mt-2 text-4xl font-bold text-gray-900">
+              <h1 className="mt-2 text-2xl font-bold text-gray-900">
                 {quiz.quiz_name}
               </h1>
 
-              <p className="mt-2 text-lg font-semibold text-gray-600">
+              <p className="mt-2 text-m font-semibold text-gray-600">
                 Leaderboard
               </p>
 

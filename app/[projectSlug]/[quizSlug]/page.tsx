@@ -419,7 +419,7 @@ if (!selectedLanguage) {
               {quiz.project_name}
             </p>
 
-            <h1 className="mt-2 text-4xl font-bold text-gray-900">
+            <h1 className="mt-2 text-2xl font-bold text-gray-900">
               {quiz.quiz_name}
             </h1>
 
@@ -440,7 +440,7 @@ if (!selectedLanguage) {
                     language.code
                   )
                 }
-                className="w-full rounded-xl border border-gray-300 bg-white px-5 py-4 text-left text-lg font-semibold text-gray-900 transition hover:border-black hover:bg-gray-50"
+                className="w-full rounded-md border border-gray-300 bg-white px-5 py-4 text-left text-md font-semibold text-gray-900 transition hover:border-black hover:bg-gray-50"
               >
                 {language.label}
               </button>
