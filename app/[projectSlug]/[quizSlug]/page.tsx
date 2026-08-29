@@ -394,7 +394,7 @@ const quizImage = quiz.quiz_cover_image_url ? (
   <img
     src={quiz.quiz_cover_image_url}
     alt={quiz.quiz_name}
-    className="w-full object-contain"
+    className="w-full object-contain max-w-[40vh] p-[1vh] mx-auto"
   />
 ) : null;
 
