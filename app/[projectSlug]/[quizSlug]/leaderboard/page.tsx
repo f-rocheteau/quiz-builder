@@ -384,7 +384,7 @@ export default function QuizLeaderboardPage() {
               alt={
                 quiz.quiz_name
               }
-              className="w-full object-contain max-w-[25vh] mx-auto"
+              className="w-full object-contain max-w-[15vh] mx-auto"
             />
 
           )}
@@ -481,21 +481,21 @@ export default function QuizLeaderboardPage() {
 
                         {player.rank_position === 1 ? (
 
-                          <span className="text-2xl">
+                          <span className="text-xl">
                             🥇
                           </span>
 
                         ) :
                         player.rank_position === 2 ? (
 
-                          <span className="text-2xl">
+                          <span className="text-xl">
                             🥈
                           </span>
 
                         ) :
                         player.rank_position === 3 ? (
 
-                          <span className="text-2xl">
+                          <span className="text-xl">
                             🥉
                           </span>
 
@@ -534,7 +534,7 @@ export default function QuizLeaderboardPage() {
 
                       <div className="shrink-0 text-right">
 
-                        <p className="text-xl font-bold text-gray-900">
+                        <p className="text-lg font-bold text-gray-900">
 
                           {
                             player.total_points

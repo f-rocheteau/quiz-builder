@@ -78,7 +78,7 @@ const translations = {
   },
 
   tr: {
-    finished: "Yarışma tamamlandı",
+    finished: "Quiz tamamlandı",
     score: "Puan",
     rank: "Sıra",
     correct: "Doğru",
@@ -348,7 +348,7 @@ return (
         <img
           src={quiz.quiz_cover_image_url}
           alt={quiz.quiz_name}
-          className="w-full object-contain max-w-[25vh] mx-auto"
+          className="w-full object-contain max-w-[15vh] mx-auto"
         />
       )}
 
@@ -360,7 +360,7 @@ return (
         {quiz.quiz_name}
       </p>
 
-        <div className="mx-auto mt-7 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-3xl font-bold text-green-700">
+        <div className="mx-auto mt-7 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-2xl font-bold text-green-700">
           ✓
         </div>
 
@@ -374,13 +374,13 @@ return (
 
         {/* SCORE */}
 
-        <div className="mt-8 rounded-2xl bg-gray-900 p-7 text-white">
+        <div className="mt-8 rounded-xl bg-gray-900 p-7 text-white">
 
           <p className="text-sm font-semibold uppercase tracking-wide text-gray-300">
             {text.score}
           </p>
 
-          <p className="mt-2 text-5xl font-bold">
+          <p className="mt-2 text-3xl font-bold">
             {result.total_score}
           </p>
 

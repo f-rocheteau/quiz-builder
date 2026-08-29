@@ -110,7 +110,7 @@ const translations = {
     namePlaceholder:
       "Adınız",
     start:
-      "Yarışmayı başlat",
+      "Quizi başlat",
     starting:
       "Başlatılıyor...",
     back:

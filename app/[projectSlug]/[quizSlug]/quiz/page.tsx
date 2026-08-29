@@ -122,8 +122,8 @@ const translations = {
     wrong: "Yanlış cevap",
     timeUp: "Süre doldu",
     points: "puan",
-    loading: "Yarışma yükleniyor...",
-    finished: "Yarışma tamamlandı!",
+    loading: "Quiz yükleniyor...",
+    finished: "Quiz tamamlandı!",
     finishedText:
       "Tüm soruları cevapladınız.",
     error: "Bir hata oluştu.",
@@ -762,7 +762,7 @@ return (
         <img
           src={quiz.quiz_cover_image_url}
           alt={quiz.quiz_name}
-          className="w-full object-contain max-w-[25vh] mx-auto"
+          className="w-full object-contain max-w-[15vh] mx-auto"
         />
       )}
 
@@ -853,7 +853,7 @@ return (
                     choice.id
                   )
                 }
-                className="min-h-20 rounded-2xl border border-gray-300 bg-white p-5 text-left text-lg font-semibold text-gray-900 shadow-sm transition hover:border-black hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-60"
+                className="min-h-20 rounded-xl border border-gray-300 bg-white text-left text-lg font-semibold text-gray-900 shadow-sm transition hover:border-black hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-60"
               >
 
                 <span className="mr-3 text-gray-400">
