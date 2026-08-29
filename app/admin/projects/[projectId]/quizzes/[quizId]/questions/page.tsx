@@ -795,7 +795,7 @@ async function uploadQuizImage(
                 alt={
                   quiz.name
                 }
-                className="max-h-[420px] w-full rounded-2xl border border-gray-200 bg-gray-50 object-contain"
+                className="w-full object-contain max-w-[25vh] mx-auto"
               />
 
             </div>

@@ -384,7 +384,7 @@ export default function QuizLeaderboardPage() {
               alt={
                 quiz.quiz_name
               }
-              className="w-full object-contain"
+              className="w-full object-contain max-w-[25vh] mx-auto"
             />
 
           )}

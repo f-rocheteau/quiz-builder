@@ -762,7 +762,7 @@ return (
         <img
           src={quiz.quiz_cover_image_url}
           alt={quiz.quiz_name}
-          className="mb-6 w-full rounded-2xl object-contain"
+          className="w-full object-contain max-w-[25vh] mx-auto"
         />
       )}
 
