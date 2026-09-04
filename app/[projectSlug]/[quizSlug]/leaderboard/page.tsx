@@ -225,6 +225,7 @@ export default function QuizLeaderboardPage() {
               const totalPoints =
                 Number(
                   row.total_points ??
+                  row.total_score ??
                   row.points ??
                   row.score ??
                   0
